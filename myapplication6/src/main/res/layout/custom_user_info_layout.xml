@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:background="#ccffff">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/ivPhoto"
+        android:src="@mipmap/ic_launcher"
+        android:layout_gravity="center_vertical"
+        android:contentDescription="@string/tvPhoto" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ccffff"
+        android:id="@+id/llData"
+        android:paddingRight="0dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/tvName"
+            android:id="@+id/tvName"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:paddingRight="5dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/llLocation">
+
+            <ImageView
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:id="@+id/ivFlag"
+                android:layout_marginLeft="5dp"
+                android:contentDescription="@string/ivFlag"
+                android:src="@drawable/ad"
+                android:layout_marginTop="0dp"
+                android:layout_gravity="center_vertical" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/tvCountry"
+                android:id="@+id/tvCountry"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:layout_marginLeft="5dp" />
+        </LinearLayout>
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rbRating"
+            android:paddingLeft="0dp"
+            android:paddingTop="5dp"
+            android:numStars="5"
+            android:paddingRight="0dp" />
+    </LinearLayout>
+
+</TableRow>

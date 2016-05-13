@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string-array name="number">
+        <item>Выберите цифровые значения</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+    <string-array name="symbol">
+        <item>Выберите символьные значени</item>
+        <item>!</item>
+        <item>#</item>
+        <item>$</item>
+        <item>%</item>
+        <item>(</item>
+        <item>)</item>
+        <item>*</item>
+        <item>+</item>
+        <item>,</item>
+        <item>-</item>
+        <item>.</item>
+        <item>/</item>
+        <item>:</item>
+        <item>;</item>
+        <item>=</item>
+        <item>\u0026</item>
+        <item>\u003E</item>
+        <item>\u003C</item>
+        <item>\u003F</item>
+        <item>\u0022</item>
+        <item>\u0040</item>
+
+    </string-array>
+</resources>

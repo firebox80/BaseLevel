@@ -1,0 +1,254 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:clickable="false"
+    android:backgroundTintMode="multiply"
+    android:background="@drawable/fon2">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:id="@+id/imageView3"
+            android:background="#ff0e48"
+            android:layout_alignParentEnd="false" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="visible">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:layout_width="2dp"
+                            android:layout_height="match_parent"
+                            android:id="@+id/imageView5"
+                            android:background="#ff365e" />
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="0dp"
+                            android:layout_gravity="center">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/out_pass"
+                                android:textSize="35dp"
+                                android:id="@+id/textViewOutPass"
+                                android:password="false"
+                                android:singleLine="false"
+                                android:elegantTextHeight="false"
+                                android:autoText="false"
+                                android:allowUndo="false"
+                                android:gravity="fill_vertical|center_horizontal"
+                                android:enabled="true"
+                                android:layout_marginRight="0dp"
+                                android:layout_gravity="center" />
+
+                            <EditText
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/editText"
+                                android:enabled="true"
+                                android:visibility="invisible"
+                                android:layout_marginRight="0dp"
+                                android:textSize="25dp"
+                                android:gravity="center"
+                                android:maxLength="14"
+                                android:minLines="0"
+                                android:layout_gravity="center" />
+                        </FrameLayout>
+
+                        <ImageView
+                            android:layout_width="2dp"
+                            android:layout_height="match_parent"
+                            android:id="@+id/imageView6"
+                            android:background="#ff1e59"
+                            android:contentDescription="@string/image"
+                            android:visibility="visible"
+                            android:layout_marginRight="0dp"
+                            android:layout_marginLeft="-2.5dp"
+                            android:paddingLeft="0dp"
+                            android:paddingRight="0dp" />
+
+                    </LinearLayout>
+                </FrameLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:id="@+id/imageView4"
+                    android:background="#ff255c" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/register"
+                    android:id="@+id/checkBoxRegister" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/radioGroupLetter">
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/upper_case"
+                        android:id="@+id/radioButtonUpperCase"
+                        android:layout_marginLeft="30dp" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/lower_case"
+                        android:id="@+id/radioButtonLowerCase"
+                        android:layout_marginLeft="30dp" />
+                </RadioGroup>
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/numeral"
+                    android:id="@+id/checkBoxNumeral" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/punctuation"
+                    android:id="@+id/checkBoxPunctuation" />
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:id="@+id/imageView"
+            android:background="#0d2bff"
+            android:layout_gravity="bottom" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_centerVertical="true"
+            android:id="@+id/FrameLayout">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="0dp"
+                android:paddingEnd="0dp"
+                android:paddingStart="0dp"
+                android:weightSum="0"
+                android:padding="0dp">
+
+                <NumberPicker
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/numberPicker" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/сharacter"
+                    android:id="@+id/textViewCharacter"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="30dp" />
+            </LinearLayout>
+        </FrameLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:id="@+id/imageView2"
+            android:background="#070fff"
+            android:backgroundTintMode="multiply" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioGroupEvent">
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/direct_sequence"
+                        android:id="@+id/radioButtonDirectSeq" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/reverse_sequence"
+                        android:id="@+id/radioButtonReverseSeq" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/edit_password"
+                        android:id="@+id/radioButtonEditPass" />
+                </RadioGroup>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical">
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/autogeneration"
+                        android:id="@+id/checkBoxAutogeneration" />
+
+                    <Button
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/generation"
+                        android:id="@+id/buttonGeneration"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginBottom="0dp" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+
+</RelativeLayout>

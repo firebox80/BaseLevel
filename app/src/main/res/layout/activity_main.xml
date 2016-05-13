@@ -1,0 +1,173 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:id="@+id/RelativeLayout"
+    android:focusableInTouchMode="false"
+    android:background="@drawable/freistehendlogo">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout2"
+        android:layout_below="@+id/frameLayout"
+        android:layout_toEndOf="@+id/buttonEnter"
+        android:layout_alignStart="@+id/frameLayout">
+
+        <CheckBox
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:text="@string/show_password"
+            android:id="@+id/checkBox"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="70dp" />
+
+        <CheckBox
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:text="@string/remember_me"
+            android:id="@+id/checkBox2"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="70dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enter"
+        android:id="@+id/buttonEnter"
+        android:background="@android:color/holo_green_dark"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp" />
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tableLayout"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="107dp"
+            android:id="@+id/imageView"
+            android:src="@drawable/freistehendlogo"
+            android:contentDescription="@string/freistehendlogo" />
+
+    </TableLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/frameLayout">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/login"
+                    android:id="@+id/textLogin"
+                    android:layout_gravity="center_horizontal"
+                    android:inputType="text"
+                    android:layout_marginRight="110dp" />
+
+                <EditText
+                    android:layout_width="190dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:text="@string/editLogin"
+                    android:ems="10"
+                    android:id="@+id/editLogin"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="80dp" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/password"
+                    android:id="@+id/textPassword"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginRight="110dp" />
+
+                <EditText
+                    android:layout_width="190dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    android:ems="10"
+                    android:id="@+id/editPassword"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="80dp" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/phone"
+                    android:id="@+id/textPhone"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginRight="110dp" />
+
+                <EditText
+                    android:layout_width="190dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="phone"
+                    android:ems="10"
+                    android:id="@+id/editPhone"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="80dp" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:layout_width="190dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="textEmailAddress"
+                    android:ems="10"
+                    android:id="@+id/editEmail"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="80dp" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/email"
+                    android:id="@+id/textEmail"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginRight="110dp" />
+            </FrameLayout>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</RelativeLayout>

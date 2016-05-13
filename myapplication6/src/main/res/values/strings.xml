@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">My Application6</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Обновить</string>
+    <string name="action_settings2">По фамилии</string>
+    <string name="action_settings3">По рейтингу</string>
+    <string name="action_settings4">Активировать</string>
+    <string name="tvCountry">Medium Text</string>
+    <string name="tvName">Large Text</string>
+    <string name="tvPhoto">tvPhoto</string>
+    <string name="ivFlag">ivFlag</string>
+</resources>

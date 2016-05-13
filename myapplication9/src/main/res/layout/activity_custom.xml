@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:background="#a6f6fd">
+
+    <FrameLayout
+        android:layout_width="80dp"
+        android:layout_height="100dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:id="@+id/ivFilm"
+            android:src="@mipmap/ic_launcher"
+            android:background="#a6f6fd"
+            android:layout_gravity="center_vertical" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Film"
+            android:id="@+id/tvTitleС"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="7dp"
+            android:textColor="@android:color/background_dark" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="130dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Title"
+                    android:id="@+id/tvYearС"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#ff000000" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Genre"
+                    android:id="@+id/tvGenreС"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="@android:color/background_dark" />
+
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Просмотреть"
+                    android:id="@+id/button3"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:layout_marginBottom="10dp" />
+            </FrameLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</TableRow>

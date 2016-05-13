@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Карта друзей"
+            android:id="@+id/tvFrends"
+            android:layout_gravity="center_vertical"
+            android:textColor="#010101"
+            android:paddingLeft="16dp"
+            android:textSize="16sp"
+            android:paddingTop="26dp"
+            android:paddingBottom="10dp" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="#452d24"
+            android:layout_marginTop="5dp"></LinearLayout>
+
+        <ListView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/lv"
+            android:layout_weight="1"
+            android:focusableInTouchMode="false"
+            android:focusable="false"
+            android:clickable="true"
+            android:footerDividersEnabled="false"
+            android:headerDividersEnabled="false" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Добавить контакт"
+            android:id="@+id/btAddFrend"
+            android:layout_weight="0"
+            android:background="#2196F3"
+            android:textColor="#ffffff" />
+
+    </LinearLayout>
+</RelativeLayout>

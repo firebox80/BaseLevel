@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/myapplication" />
+            <option value="$PROJECT_DIR$/myapplication10" />
+            <option value="$PROJECT_DIR$/myapplication11" />
+            <option value="$PROJECT_DIR$/myapplication12" />
+            <option value="$PROJECT_DIR$/myapplication13" />
+            <option value="$PROJECT_DIR$/myapplication14" />
+            <option value="$PROJECT_DIR$/myapplication16" />
+            <option value="$PROJECT_DIR$/myapplication3" />
+            <option value="$PROJECT_DIR$/myapplication4" />
+            <option value="$PROJECT_DIR$/myapplication5" />
+            <option value="$PROJECT_DIR$/myapplication6" />
+            <option value="$PROJECT_DIR$/myapplication7" />
+            <option value="$PROJECT_DIR$/myapplication8" />
+            <option value="$PROJECT_DIR$/myapplication9" />
+          </set>
+        </option>
+        <option name="myModules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/myapplication" />
+            <option value="$PROJECT_DIR$/myapplication10" />
+            <option value="$PROJECT_DIR$/myapplication11" />
+            <option value="$PROJECT_DIR$/myapplication12" />
+            <option value="$PROJECT_DIR$/myapplication13" />
+            <option value="$PROJECT_DIR$/myapplication14" />
+            <option value="$PROJECT_DIR$/myapplication16" />
+            <option value="$PROJECT_DIR$/myapplication3" />
+            <option value="$PROJECT_DIR$/myapplication4" />
+            <option value="$PROJECT_DIR$/myapplication5" />
+            <option value="$PROJECT_DIR$/myapplication6" />
+            <option value="$PROJECT_DIR$/myapplication7" />
+            <option value="$PROJECT_DIR$/myapplication8" />
+            <option value="$PROJECT_DIR$/myapplication9" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

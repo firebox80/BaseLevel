@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffcccc">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/ivPhoto"
+        android:src="@android:mipmap/sym_def_app_icon"
+        android:layout_gravity="center_vertical"
+        android:contentDescription="@string/ivPhoto" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#ccffff"
+        android:id="@+id/llData">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/tvName"
+            android:id="@+id/tvName"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/tvCountry"
+            android:id="@+id/tvCountry"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp" />
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rbRating"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:numStars="5" />
+    </LinearLayout>
+</TableRow>

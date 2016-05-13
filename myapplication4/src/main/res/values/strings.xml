@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">My Application4</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="out_pass">You Password</string>
+    <string name="register">Учитывать регистр</string>
+    <string name="upper_case">Только заглавные буквы</string>
+    <string name="lower_case">Только прописные буквы</string>
+    <string name="numeral">Использовать цифры</string>
+    <string name="punctuation">Использовать знаки препинания</string>
+    <string name="сharacter">Количество символов в пароле</string>
+    <string name="autogeneration">Автогенерация</string>
+    <string name="generation">Сгенерировать</string>
+    <string name="direct_sequence">Прямая последовательность</string>
+    <string name="reverse_sequence">Обратная последовательность</string>
+    <string name="edit_password">Редактировать пароль</string>
+    <string name="image">iv6</string>
+
+</resources>
